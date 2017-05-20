@@ -1,0 +1,49 @@
+insert:1
+insert:2
+insert:3
+insert:4
+insert:5
+insert:6
+insert:7
+insert:8
+insert:9
+insert:10
+insert:11
+insert:12
+insert:13
+insert:14
+insert:15
+insert:16
+insert:17
+insert:18
+insert:19
+insert:20
+incorrect:'select          chec'
+select:2
+price=1.10 kind='snack' count=15 put_tm='01:01:01' req_tm='18:40:52' check=-99 name="salad"
+price=-999.90 kind='drink' count=-2147483648 put_tm='01:01:01' req_tm='19:07:03' check=-51 name="Nachos=chicken="
+select:7
+name="Nachos=chicken=" req_tm='19:07:03' price=-999.90
+name="Chicken  'nachos'  " req_tm='18:42:00' price=1.00
+name="Nachos \"chips with cheese\"  " req_tm='19:07:43' price=-1.00
+name="main" req_tm='19:07:03' price=-0.01
+name="Buritto\"chicken\"" req_tm='01:01:01' price=1.00
+name="Drink Beer\\\\\\\\" req_tm='23:05:59' price=0.50
+name="Chili-con-carne" req_tm='00:00:00' price=0.50
+select:5
+req_tm='00:00:00' count=16 check=41 kind='beer'
+req_tm='19:07:55' count=-99 check=41 kind='salad'
+req_tm='19:07:42' count=4 check=0 kind='starter'
+req_tm='00:10:02' count=41 check=47 kind='main'
+req_tm='01:01:01' count=-99 check=0 kind='beer'
+incorrect:'select          req_'
+incorrect:'select   req_tm,name'
+incorrect:'select   count,kind,'
+incorrect:'select    check,req_'
+incorrect:'select    name,kind,'
+incorrect:'select     kind,coun'
+incorrect:'select price price>5'
+incorrect:'select    name    pu'
+incorrect:'select    check,req_'
+incorrect:'select         check'
+incorrect:'select       price  '

@@ -1,0 +1,21 @@
+insert    price=5.51,req_tm='19:07:43',put_tm='19:07:55',count=-19,check=15,name="starter",kind='beer'
+insert   price=7.0,kind='first',name="snack",req_tm='18:41:50',check=-19,put_tm='18:40:52',count=-10
+insert    name="main",count=41,req_tm='23:59:59',kind='drink',check=041,put_tm='18:40:52',price=7.0
+insert    req_tm='19:07:43',check=551,count=-19,name="drink",put_tm='18:40:52',kind='first',price=5
+insert     count=041,req_tm='19:07:03',price=6.91,kind='main',name="snack",check=-10,put_tm='18:41:50'
+insert put_tm='19:07:55',check=41,name="salad",kind='starter',price=14.0,req_tm='23:59:59',count=40
+insert    kind='beer',req_tm='18:42:00',price=6.91,put_tm='19:05:41',check=40,count=-10,name="drink"
+insert   check=15,kind='snack',count=0015,req_tm='19:05:41',put_tm='18:40:52',name="drink",price=5.51
+insert count=551,kind='starter',req_tm='18:40:52',put_tm='18:40:51',check=551,price=999.99,name="snack"
+insert     check=004,price=6.91,req_tm='19:07:55',kind='starter',put_tm='18:41:50',count=041,name="starter"
+insert   price=1,req_tm='19:07:42',check=004,put_tm='19:07:43',name="salad",count=004,kind='beer'
+insert     check=18,kind='starter',name="snack",req_tm='19:05:41',put_tm='19:05:41',count=-10,price=999.99
+insert     count=0,put_tm='23:59:59',kind='first',price=5,req_tm='18:40:52',check=18,name="beer"
+insert   put_tm='23:59:59',price=1,req_tm='18:41:50',name="drink",count=0015,check=0,kind='beer'
+insert    put_tm='19:07:43',check=15,name="main",count=551,price=6.91,req_tm='18:40:51',kind='salad'
+delete  kind!='beer'
+select req_tm,name,put_tm,kind,price,check,count
+delete    req_tm>'19:07:55'    name=="salad"
+select kind,name,put_tm,check,price,req_tm,count
+delete   kind/not_in/['salad','beer','main','snack']   req_tm=='19:07:43'   req_tm>='19:07:42'
+select put_tm,req_tm,count,check,name,kind,price

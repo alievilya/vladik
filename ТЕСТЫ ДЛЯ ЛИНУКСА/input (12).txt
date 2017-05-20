@@ -1,0 +1,8 @@
+insert name="snack",put_tm='18:41:50',check=41,count=0016,req_tm='18:42:00',price=17.445,kind='main'
+insert     count=-10,req_tm='23:59:59',put_tm='23:59:59',kind='first',name="snack",check=004,price=3317.44
+insert count=0016,check=0016,price=0015.1,put_tm='19:05:41',req_tm='18:41:50',kind='drink',name="snack"
+insert    count=40,check=004,name="drink",req_tm='18:40:51',put_tm='19:07:03',kind='drink',price=-0015.1
+insert  count=57,req_tm='23:59:59',name="drink",check=18,put_tm='19:07:43',price=00000055555555555555555555555555555555555555555555555555.55,kind='snack'
+insert     put_tm='19:05:41',check=15,name="salad",req_tm='18:41:50',kind='beer',price=155555555555555555555555555555555555555555555555555.55,count=0015
+insert  req_tm='19:07:43',check=004,price=55555555555555555555555555555555555555555555555555.551,name="drink",put_tm='18:40:51',count=041,kind='first'
+select    name,req_tm,check,price,put_tm

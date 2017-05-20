@@ -1,0 +1,21 @@
+insert kind='main',price=999.99,req_tm='19:05:41',check=-19,put_tm='19:05:41',name="main",count=-10
+insert    req_tm='19:05:41',kind='starter',price=7.0,check=15,count=57,put_tm='19:07:42',name="first"
+insert req_tm='23:59:59',count=-19,put_tm='19:07:43',kind='starter',price=999.99,check=-10,name="first"
+insert   req_tm='19:07:42',name="beer",check=41,price=6.91,put_tm='19:07:03',count=0,kind='salad'
+insert count=-10,put_tm='18:42:00',name="salad",req_tm='19:07:43',check=551,price=7.0,kind='drink'
+select price,put_tm,check,req_tm,count,kind,name
+select     kind,name,count,req_tm,check
+select    put_tm,check,req_tm
+select     name
+select     kind,count     price==5.51
+select  price,count,kind  put_tm=='18:40:52'
+select   count,name,check,kind,put_tm   req_tm!='18:40:52'
+select put_tm,kind kind!='drink' name>"starter"
+select  put_tm,kind,count,name,check,price,req_tm  count<=41  name!="starter"
+select price,req_tm req_tm<='18:41:50' check<041
+select   put_tm,req_tm,kind,price   check<=-10   check<=041   kind!='snack'
+select  kind  req_tm!='18:40:52'  kind!='drink'  price<7.0
+select  check,name,req_tm,kind,price,count,put_tm  check<40  check<-10  put_tm<'19:07:43'
+select   name,count,put_tm,check,kind,req_tm,price   check>=57   req_tm>'18:42:00'   put_tm<='19:07:42'   name>="salad"
+select   price,count,kind,name   price>999.99   check>551   count<=57   name=="beer"
+select req_tm,kind,put_tm req_tm=='19:07:43' count<0015 req_tm<'19:05:41' req_tm>='18:40:52'

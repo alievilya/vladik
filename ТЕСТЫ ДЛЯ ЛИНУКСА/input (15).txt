@@ -1,0 +1,17 @@
+insert  price=17.44,kind='drink',req_tm='18:41:90',check=0,put_tm='18:41:50',name="drink",count=15
+insert   put_tm='23:59:59',check=41,req_tm='18:41:',price=5.51,count=004,name="snack",kind='snack'
+insert     price=999.99,name="first",check=-19,req_tm='18:41:000',count=-19,kind='main',put_tm='19:07:42'
+insert kind='main',put_tm='19:07:55',price=7.0,req_tm='25:41:00',name="beer",count=004,check=57
+insert name="salad",count=0015,req_tm='23::56',price=5,put_tm='19:05:41',check=041,kind='drink'
+insert   count=15,price=99.99,check=41,name="drink",put_tm='19:07:43',kind='first',req_tm=':12:1'
+insert check=551,price=14.0,count=0015,req_tm='23:60:0',name="beer",put_tm='19:05:41',kind='beer'
+insert price=99.99,count=-19,name="beer",req_tm='22:59:60',kind='salad',put_tm='19:07:43',check=40
+insert price=17.44,req_tm='a:23:41',count=-10,kind='starter',put_tm='19:05:41',check=004,name="salad"
+insert     kind='drink',price=17.44,count=0,put_tm='23:59:59',req_tm='23:0a:50',name="snack",check=551
+insert  kind='drink',price=17.44,name="main",check=0015,put_tm='19:07:55',req_tm='23: 01:59',count=041
+insert put_tm='19:07:42',req_tm='12:11:0z',kind='starter',name="first",price=999.99,check=-19,count=-19
+insert   req_tm=18:41:50,kind='salad',put_tm='18:40:51',price=1,name="starter",check=004,count=0016
+insert    price=7.0,count=57,req_tm='18:41,:50',check=551,put_tm='19:07:42',name="drink",kind='first'
+insert    name="drink",put_tm='23:59:59',check=041,count=57,kind='salad',price=999.99,req_tm=0:0:0
+insert  price=17.44,check=551,count=041,kind='main',put_tm='18:40:52',name="first",req_tm="23:41:51"
+select   check,put_tm,count

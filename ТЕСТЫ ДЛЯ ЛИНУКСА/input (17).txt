@@ -1,0 +1,35 @@
+insert  name="Nachos=chicken=",price=1.5,put_tm='19:07:42',count=-2147483648,kind='drink',check=-2147483648,req_tm='00:00:0'
+insert  price=5,count=0016,kind='beer',name="=Drink=beer=",put_tm='0:1:2',check=041,req_tm='00:00:0'
+insert   count=0015,name="salad",req_tm='18:40:52',price=001.10,put_tm='1:1:1',kind='snack',check=-00000000000099
+insert    kind='salad',put_tm='19:05:41',price=5.51,count=-00000000000099,req_tm='19:07:55',check=041,name="  Drink    'Beer',      vol. 0.3l  "
+insert   price=-999.9,count=-2147483648,name="Nachos=chicken=",req_tm='19:07:03',put_tm='1:1:1',check=-00000000000051,kind='drink'
+insert   check=0,req_tm='19:07:42',count=004,put_tm='19:05:41',name="  Drink    'Beer',      vol. 0.3l  ",kind='starter',price=1.5
+insert    name="",put_tm='18:42:00',check=00000000000047,price=001.1,req_tm='0:10:2',kind='main',count=41
+insert     count=2147483647,put_tm='18:40:51',kind='starter',name="Chili con carne",check=40,price=1.05,req_tm='00:00:0'
+insert    name="main",kind='first',put_tm='18:40:52',check=0,req_tm='0:1:2',count=-00000000000051,price=001.1
+insert   kind='starter',put_tm='0:10:2',name="Chicken  'nachos'  ",count=-00000000000099,check=0015,price=1.,req_tm='18:42:00'
+insert  price=-1.,check=57,count=41,kind='main',put_tm='23:59:59',name="Nachos \"chips with cheese\"  ",req_tm='19:07:43'
+insert     count=0015,price=-.01,put_tm='23:59:59',kind='starter',req_tm='19:07:03',name="main",check=-19
+insert  count=-00000000000051,check=00000000000047,put_tm='19:07:55',kind='starter',name="main",price=55555555555555555555555555555555555555555555555555.55,req_tm='23:59:59'
+insert    check=0,kind='beer',name="Buritto\"chicken\"",put_tm='18:41:50',price=1.,req_tm='1:1:1',count=-00000000000099
+insert    price=5.51,check=551,kind='main',name="Chicken  'nachos'  ",req_tm='23:5:59',count=-00000000000051,put_tm='19:07:42'
+insert   count=004,kind='salad',put_tm='19:07:03',name="main",check=-00000000000051,req_tm='18:42:00',price=14.0
+insert   check=-00000000000099,name="main",kind='main',price=14.0,req_tm='18:40:51',count=0015,put_tm='23:59:59'
+insert count=0015,kind='snack',put_tm='19:07:43',name="Nachos=chicken=",check=0015,price=55555555555555555555555555555555555555555555555555.55,req_tm='23:5:59'
+insert     put_tm='18:41:50',price=.5,kind='salad',req_tm='23:5:59',name="Drink Beer\\\\\\\\",check=-00000000000099,count=-00000000000051
+insert   price=.5,req_tm='00:00:0',count=00000000000657,put_tm='23:5:59',check=-2147483648,kind='salad',name="Chili-con-carne"
+select          check,name,put_tm          kind/in/[starter,'starter','drink','s\nack','main',' starter ','dri,nk','beer','snack',"snack",'stmarter','b=eer','first','sna ck','salad','f"irst']
+select   price,kind,count,put_tm,req_tm,check,name   put_tm=='1:1:1'
+select name,req_tm,price price<1.05
+select req_tm,count,check,kind put_tm!='19:07:03' name<"Chicken  'nachos'  "
+select          req_tm,price          kind!='dri,nk'          put_tm>="23:41:51"
+select   req_tm,name,price,count,check   name<="drink"   check==-
+select   count,kind,check,price,req_tm,put_tm,name   req_tm=='18:41:'   check!=004   price>-1.
+select    check,req_tm    check!=5555555555555555555555555555555555678    count<=+5    put_tm<'12:11:0z'
+select    name,kind,req_tm,check,count    check>=1ff1    kind!='f"irst'    name<="Burit"to
+select     kind,count     name!=Buritto     count<0016     name<="main"     count==1-
+select price price>5.51 name=="Burit"to put_tm>'23:60:0' name!="Nachos \"chips with cheese\"  "
+select    name    put_tm<'12:11:0z'    price!=999.99    price<=3317.44    count>1ff1
+select    check,req_tm,count,price,name,kind    req_tm>'18:40:51'    req_tm!=0:0:0    kind=='main'    price!=-55555555555555555555555555555555555555555555555555.55    put_tm>='1:1:1'
+select         check,put_tm,kind,price,name,req_tm         name=="salad"         count==11f         price==14.0         check>2147483647         put_tm<='19:07:55'
+select       price       put_tm>='23:59:59'       put_tm>':12:1'       price>=1.       req_tm>'19:07:43'       req_tm!='18:40:52'

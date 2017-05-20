@@ -1,0 +1,79 @@
+insert:1
+insert:2
+insert:3
+insert:4
+insert:5
+insert:6
+insert:7
+insert:8
+insert:9
+insert:10
+insert:11
+insert:12
+insert:13
+insert:14
+insert:15
+insert:16
+insert:17
+insert:18
+insert:19
+insert:20
+select:7
+name="=Drink=beer=" kind='first' price=5.51
+name="snack" kind='drink' price=99.99
+name="Nachos \"chips with cheese\"  " kind='salad' price=1.10
+name="Chili con carne" kind='drink' price=999.90
+name="Chili-con-carne" kind='snack' price=1.00
+name=" Buritto\\chicken" kind='snack' price=-55555555555555555555555555555555555555555555555555.55
+name="starter" kind='drink' price=1.05
+select:19
+kind='first' price=5.51 name="=Drink=beer=" check=40 req_tm='01:01:01' count=0
+kind='first' price=17.44 name="Chili con carne" check=4 req_tm='00:10:02' count=15
+kind='drink' price=999.99 name="beer" check=-99 req_tm='19:05:41' count=47
+kind='drink' price=5.00 name="Chili con carne" check=41 req_tm='19:07:03' count=-99
+kind='beer' price=1.00 name="Nachos=chicken=" check=-51 req_tm='19:07:43' count=4
+kind='main' price=7.00 name="Drink Beer\\\\\\\\" check=18 req_tm='18:40:51' count=-10
+kind='drink' price=99.99 name="snack" check=57 req_tm='00:10:02' count=0
+kind='salad' price=99.99 name="snack" check=-2147483648 req_tm='18:40:51' count=657
+kind='salad' price=1.10 name="Nachos \"chips with cheese\"  " check=-2147483648 req_tm='19:05:41' count=-19
+kind='drink' price=999.90 name="Chili con carne" check=16 req_tm='01:01:01' count=-19
+kind='salad' price=1.00 name="Nachos \"chips with cheese\"  " check=-10 req_tm='01:01:01' count=551
+kind='starter' price=0.50 name="main" check=41 req_tm='18:41:50' count=-19
+kind='snack' price=1.00 name="Chili-con-carne" check=47 req_tm='19:07:42' count=-2147483648
+kind='beer' price=-0.10 name="main" check=41 req_tm='00:01:02' count=-51
+kind='starter' price=1.10 name=" Buritto//Meet" check=18 req_tm='19:07:43' count=41
+kind='starter' price=-0.01 name="Chili con carne" check=47 req_tm='01:01:01' count=57
+kind='starter' price=17.44 name="Chili con carne" check=18 req_tm='19:07:03' count=-99
+kind='snack' price=-55555555555555555555555555555555555555555555555555.55 name=" Buritto\\chicken" check=-10 req_tm='23:05:59' count=-10
+kind='drink' price=1.05 name="starter" check=-10 req_tm='19:07:43' count=4
+select:18
+price=999.99
+price=5.00
+price=1.00
+price=7.00
+price=99.99
+price=99.99
+price=1.10
+price=1.10
+price=999.90
+price=1.00
+price=0.50
+price=1.00
+price=-0.10
+price=1.10
+price=-0.01
+price=17.44
+price=-55555555555555555555555555555555555555555555555555.55
+price=1.05
+incorrect:'select      req_tm  '
+incorrect:'select    put_tm,req'
+incorrect:'select          kind'
+incorrect:'select          name'
+incorrect:'select    name,count'
+incorrect:'select        put_tm'
+incorrect:'select     kind,coun'
+incorrect:'select          name'
+incorrect:'select    req_tm,kin'
+incorrect:'select    put_tm,pri'
+incorrect:'select    check,name'
+incorrect:'select          pric'

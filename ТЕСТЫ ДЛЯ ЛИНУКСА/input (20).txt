@@ -1,0 +1,35 @@
+insert  put_tm='19:07:43',price=6.91,kind='salad',name="main",check=15,req_tm='19:07:42',count=57
+insert     price=99.99,check=-00000000000099,name="Chili-con-carne",kind='beer',req_tm='19:07:43',count=-10,put_tm='18:42:00'
+insert   req_tm='18:40:51',check=57,put_tm='1:1:1',kind='beer',price=1.,name="snack",count=-10
+insert   put_tm='19:07:03',req_tm='18:41:50',name="Drink Beer\\\\\\\\",price=1,check=-19,kind='beer',count=-10
+insert put_tm='0:10:2',check=2147483647,price=999.9,kind='main',count=-00000000000051,name="Nachos=chicken=",req_tm='23:59:59'
+insert name=" Buritto//Meet",price=001.1,kind='starter',req_tm='19:07:55',put_tm='23:5:59',count=00000000000047,check=004
+insert req_tm='0:1:2',count=551,put_tm='0:1:2',check=-10,kind='salad',name="snack",price=001.1
+insert     check=15,count=551,name="Drink Beer\\\\\\\\",price=.5,put_tm='0:1:2',req_tm='19:07:55',kind='beer'
+insert check=00000000000047,req_tm='19:05:41',count=57,price=1.05,name="Chili con carne",put_tm='00:00:0',kind='salad'
+insert   count=551,put_tm='23:5:59',check=0,req_tm='00:00:0',kind='drink',price=1.,name="Chili con carne"
+insert   put_tm='19:07:43',check=-00000000000099,price=-.01,name="Chili con carne",count=-00000000000099,kind='snack',req_tm='19:07:55'
+insert   kind='first',check=00000000000047,price=1.05,put_tm='19:05:41',count=18,name="beer",req_tm='19:07:42'
+insert   name="Buritto\"chicken\"",count=57,check=57,req_tm='18:40:51',kind='snack',price=999.9,put_tm='19:07:43'
+insert price=1.,kind='snack',req_tm='0:10:2',put_tm='18:40:52',check=40,name="Chicken  'nachos'  ",count=2147483647
+insert    put_tm='23:5:59',kind='drink',price=5.51,check=-00000000000099,count=0016,req_tm='18:40:51',name="starter"
+insert  check=004,count=00000000000047,req_tm='18:40:51',name="snack",kind='first',price=7.0,put_tm='18:42:00'
+insert     req_tm='19:07:42',price=-.1,put_tm='0:1:2',check=2147483647,kind='first',count=40,name="Nachos=chicken="
+insert count=0,put_tm='18:42:00',name="Drink Beer\\\\\\\\",kind='snack',price=001.1,req_tm='00:00:0',check=0015
+insert  put_tm='19:07:03',req_tm='19:05:41',count=00000000000657,check=00000000000657,name="",kind='starter',price=.5
+insert  count=041,name="starter",req_tm='19:07:42',kind='drink',price=.5,check=00000000000047,put_tm='19:07:55'
+select          price,kind          check>0015
+select kind,name,count,req_tm,price,put_tm,check put_tm>='18:41:000'
+select    put_tm    name=="Chili con carne"
+select   req_tm   req_tm<="23:41:51"   price<1.5
+select       count,check       price==00000055555555555555555555555555555555555555555555555555.55       req_tm>'18:40:52'
+select    req_tm,count,check,name,price    name>="Burit"to    count!=00000000000047
+select        price,req_tm,count,name        count==-2147483649        price<5.51        check==-2147483649
+select    name    check>=1-1    name>"=Drink=beer="    price<=55555555555555555555555555555555555555555555555555.551
+select     kind     put_tm>='0:10:2'     price<-.01     put_tm<='12:11:0z'
+select  kind,check,count,req_tm,name,price,put_tm  price>001.10  count==1.  check<=1-1  kind/not_in/['s\nack',' starter ',"snack",'b=eer','stmarter','drink',starter,'starter','f"irst','dri,nk']
+select          put_tm,name,req_tm,price,check,kind,count          price>=1          check>=--5          put_tm>'25:41:00'          put_tm>='18:41:'
+select      price,kind,check,req_tm,name      check<=2147483648      check==15      price>999.9      kind/not_in/['beer','snack',' starter ',starter,'b=eer','f"irst',"snack",'salad','drink','main','sna ck','s\nack']
+select    count    count==00000000000047    kind/not_in/['f"irst','dri,nk','main','beer']    price>-1.    put_tm<='18:41:000'    count<--0
+select          req_tm,count          check>=+5          req_tm<'23:60:0'          price>=1.          req_tm<'18:42:00'          kind/not_in/['stmarter','sna ck','dri,nk','f"irst','beer',starter,'b=eer',' starter ','main','first','starter']
+select price,check,req_tm,put_tm,count,kind,name count>=0 check!=41 check<=11f check==00000000000047 count>004

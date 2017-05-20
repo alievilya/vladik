@@ -1,0 +1,27 @@
+insert   check=0,put_tm='18:42:00',count=041,price=1,kind='starter',req_tm='19:07:42',name="Chili-con-carne"
+insert req_tm='19:05:41',kind='first',check=57,put_tm='23:59:59',count=041,name="Chili con carne",price=1
+insert check=0016,kind='salad',count=40,price=5,req_tm='19:07:42',name=" Buritto//Meet",put_tm='19:07:55'
+insert   req_tm='18:40:52',check=0,put_tm='18:41:50',price=5,count=0015,name=" Buritto\\chicken",kind='beer'
+insert  count=15,check=15,name="Buritto\"chicken\"",req_tm='18:40:52',put_tm='19:07:43',kind='main',price=1
+insert   price=5,kind='drink',req_tm='19:07:43',count=004,check=0015,name="Nachos \"chips with cheese\"  ",put_tm='19:07:43'
+insert   req_tm='19:07:42',kind='main',count=551,name="Chicken  'nachos'  ",check=-19,put_tm='19:07:03',price=7.0
+insert put_tm='18:41:50',name="Nachos=chicken=",req_tm='19:05:41',price=6.91,count=57,kind='first',check=-19
+insert   price=6.91,kind='main',name="=Drink=beer=",req_tm='19:07:43',put_tm='19:07:03',count=41,check=57
+insert  count=004,kind='beer',put_tm='19:07:03',price=7.0,req_tm='19:05:41',check=004,name="  Drink    'Beer',      vol. 0.3l  "
+insert   put_tm='19:07:03',name="",kind='starter',price=17.44,count=41,check=004,req_tm='19:07:43'
+insert    check=041,req_tm='19:07:43',price=7.0,name="Drink Beer\\\\\\\\",kind='starter',put_tm='18:40:51',count=-10
+select   kind   
+select kind,req_tm,price,put_tm 
+select     req_tm,check,name,count,put_tm,price     
+select     check,put_tm,kind     req_tm=='18:40:51'
+select   kind,put_tm,check,price,count,req_tm,name   price==17.44
+select    price,req_tm    check!=15
+select     put_tm,req_tm,name     req_tm<'23:59:59'     price>=999.99
+select kind check!=15 put_tm<'18:40:51'
+select     count,put_tm,kind,name,price,req_tm     req_tm<='18:41:50'     req_tm=='18:40:51'
+select count,price,put_tm,req_tm,kind,name,check put_tm=='19:07:03' count!=041 count<=0
+select    name,kind,put_tm,price,req_tm,check,count    put_tm>='18:40:52'    count>0016    price>=999.99
+select    name,count    price<999.99    name<="beer"    kind/not_in/['snack','drink','salad','starter','first','beer']
+select  check,put_tm,count,kind,req_tm,name  req_tm!='18:40:51'  check!=0016  count<40  count!=15
+select    put_tm,count,price,kind,req_tm,name,check    req_tm=='19:07:55'    kind=='first'    price!=5    check<551
+select     count,kind,price     kind/in/['first','salad','drink','starter']     kind/in/[]     count!=15     check!=-10

@@ -1,0 +1,8 @@
+insert req_tm='18:42:00',price=1,kind='starter',check=18,count=57,name=Buritto,put_tm='19:07:03'
+insert    check=041,name='Buritto',req_tm='19:07:43',kind='snack',put_tm='19:07:43',price=5,count=004
+insert  price=6.91,kind='drink',put_tm='18:40:52',count=041,req_tm='18:40:52',check=0016,name='Chicken buritto'
+insert   name=B"urit"to,put_tm='18:40:52',price=6.91,req_tm='18:40:51',kind='starter',check=18,count=0016
+insert   price=14.0,put_tm='18:40:51',kind='beer',count=0,name="Burit"to,check=-19,req_tm='19:07:43'
+insert     put_tm='18:42:00',req_tm='18:40:51',kind='starter',name=Bu"ritto",count=57,price=5.51,check=41
+insert    count=0016,price=7.0,check=18,req_tm='18:40:51',put_tm='23:59:59',name=Bu"r itto",kind='main'
+select       name,price,put_tm,req_tm,count,check

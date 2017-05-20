@@ -1,0 +1,47 @@
+insert:1
+insert:2
+insert:3
+insert:4
+insert:5
+insert:6
+insert:7
+insert:8
+insert:9
+insert:10
+insert:11
+insert:12
+insert:13
+insert:14
+insert:15
+insert:16
+insert:17
+insert:18
+insert:19
+insert:20
+select:9
+price=1.00 kind='beer'
+price=999.90 kind='main'
+price=1.05 kind='salad'
+price=1.05 kind='first'
+price=999.90 kind='snack'
+price=1.00 kind='snack'
+price=-0.10 kind='first'
+price=0.50 kind='starter'
+price=0.50 kind='drink'
+incorrect:'select kind,name,cou'
+select:3
+put_tm='00:00:00'
+put_tm='23:05:59'
+put_tm='19:07:43'
+incorrect:'select   req_tm   re'
+incorrect:'select       count,c'
+incorrect:'select    req_tm,cou'
+incorrect:'select        price,'
+incorrect:'select    name    ch'
+incorrect:'select     kind     '
+incorrect:'select  kind,check,c'
+incorrect:'select          put_'
+incorrect:'select      price,ki'
+incorrect:'select    count    c'
+incorrect:'select          req_'
+incorrect:'select price,check,r'

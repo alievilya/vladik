@@ -1,0 +1,68 @@
+insert:1
+insert:2
+insert:3
+insert:4
+insert:5
+insert:6
+insert:7
+insert:8
+incorrect:'1'
+insert:9
+incorrect:'5'
+insert:10
+insert:11
+incorrect:'1'
+insert:12
+incorrect:'0'
+insert:13
+incorrect:'1'
+insert:14
+incorrect:'9'
+insert:15
+incorrect:'7'
+insert:16
+incorrect:'0'
+insert:17
+incorrect:'5'
+insert:18
+incorrect:'8'
+insert:19
+incorrect:'1'
+insert:20
+select:1
+req_tm='00:00:00' kind='main' check=16 count=-19 
+incorrect:'select          req_'
+incorrect:'select   price,put_t'
+incorrect:'select    req_tm,kin'
+incorrect:'select       check,r'
+incorrect:'select          name'
+incorrect:'select check,price,r'
+incorrect:'select check,req_tm '
+select:4
+kind='salad' price=-55555555555555555555555555555555555555555555555555.55 
+kind='snack' price=1.50 
+kind='snack' price=1.10 
+kind='starter' price=17.44 
+select:17
+name="first" 
+name="Nachos \"chips with cheese\"  " 
+name=" Buritto//Meet" 
+name="Chicken  'nachos'  " 
+name="=Drink=beer=" 
+name="Chili-con-carne" 
+name="=Drink=beer=" 
+name="salad" 
+name="Chili con carne" 
+name="drink" 
+name="Nachos \"chips with cheese\"  " 
+name="starter" 
+name="" 
+name="snack" 
+name="drink" 
+name="starter" 
+name="Chicken  'nachos'  " 
+incorrect:'select        check,'
+incorrect:'select       name,ch'
+incorrect:'select          pric'
+incorrect:'select        price '
+incorrect:'select          kind'

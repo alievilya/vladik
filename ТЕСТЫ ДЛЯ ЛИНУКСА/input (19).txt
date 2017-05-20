@@ -1,0 +1,35 @@
+insert  req_tm='18:40:52',price=-55555555555555555555555555555555555555555555555555.55,check=41,put_tm='0:1:2',name="first",count=-10,kind='salad'
+insert price=-.0,check=0016,count=-19,name="Nachos \"chips with cheese\"  ",kind='main',put_tm='19:07:55',req_tm='00:00:0'
+insert   check=57,count=0,price=-.01,kind='starter',req_tm='19:07:42',put_tm='0:10:2',name=" Buritto//Meet"
+insert  req_tm='19:07:03',count=0016,price=5,kind='snack',check=18,name="Chicken  'nachos'  ",put_tm='19:05:41'
+insert  name="beer",req_tm='23:59:59',count=-00000000000051,price=99.99,kind='drink',check=18,put_tm='23:5:59'
+insert name="=Drink=beer=",count=57,kind='first',price=1.5,put_tm='19:07:55',check=41,req_tm='19:05:41'
+insert check=00000000000657,name="Chili-con-carne",count=-00000000000051,price=1.,req_tm='18:40:51',put_tm='23:5:59',kind='first'
+insert    kind='starter',count=40,name="=Drink=beer=",check=-00000000000051,put_tm='0:1:2',req_tm='18:42:00',price=-.1
+insert check=2147483647,put_tm='18:40:52',count=-00000000000051,req_tm='00:00:0',kind='first',name="salad",price=1.5
+insert check=-19,put_tm='19:07:42',count=0,kind='drink',name="Chili con carne",price=-1.,req_tm='18:42:00'
+insert    name="drink",check=41,put_tm='18:42:00',kind='beer',price=5.51,req_tm='23:59:59',count=551
+insert  kind='snack',price=1.5,put_tm='0:1:2',req_tm='18:40:51',name="beer",check=2147483647,count=0
+insert   check=40,price=001.10,name="Nachos \"chips with cheese\"  ",kind='snack',put_tm='00:00:0',req_tm='18:40:51',count=041
+insert kind='starter',count=-00000000000099,req_tm='18:42:00',put_tm='18:41:50',name="starter",price=-1.,check=-19
+insert   price=1.5,name="",req_tm='18:40:52',put_tm='19:05:41',count=-19,kind='starter',check=57
+insert     req_tm='0:10:2',check=00000000000657,price=17.44,kind='starter',put_tm='0:1:2',name="Drink Beer\\\\\\\\",count=40
+insert req_tm='23:5:59',price=.5,check=041,kind='starter',name="snack",put_tm='19:07:03',count=15
+insert  req_tm='23:59:59',name="drink",check=40,put_tm='19:07:55',kind='salad',price=-.1,count=-2147483648
+insert check=551,price=-55555555555555555555555555555555555555555555555555.55,req_tm='19:07:43',put_tm='23:5:59',kind='snack',name="starter",count=41
+insert    count=0016,check=41,kind='starter',price=-.01,put_tm='18:41:50',name="Chicken  'nachos'  ",req_tm='18:42:00'
+select      req_tm,kind,check,count      kind=='main'
+select          req_tm,check,put_tm,count,kind,name          req_tm=="23:41:51"
+select   price,put_tm,check   check>=+
+select    req_tm,kind,price,name,count    req_tm=='19:07:43'    count==-2147483648a
+select       check,req_tm,count,put_tm,price       put_tm>='a:23:41'       name=="Nachos \"chips with cheese\"  "
+select          name,req_tm,count,put_tm,kind          count>-10          name<=Bu"r itto"
+select check,price,req_tm,count,put_tm,kind price<5.51 req_tm=='23:59:59' name==B"urit"to
+select check,req_tm price>=17.445 count<-.10 count==1ff1
+select     kind,price     name>="Chicken  'nachos'  "     kind!='main'     put_tm<'18:40:51'
+select         name         price<=6.91         name!="beer"         put_tm<='23:59:59'         name!="  Drink    'Beer',      vol. 0.3l  "
+select        check,name,put_tm        price!=155555555555555555555555555555555555555555555555555.55        check>=-2147483649        name>"snack"        put_tm=='18:40:51'
+select       name,check,req_tm       price>=-0015.1       req_tm<='18:41:90'       price==-.1       name!="Burit"to
+select          price,name,count,put_tm          check!=-10          put_tm<='18:41:'          kind/in/['s\nack',' starter ','drink','first','beer','f"irst','salad','main','snack','b=eer',starter,'starter',"snack",'sna ck','stmarter','dri,nk']          kind/not_in/[starter,'starter','drink','snack',' starter ','salad','dri,nk',"snack",'stmarter','beer','main','first','s\nack','sna ck','f"irst']          count==-a56
+select        price        count<-10        kind/in/['b=eer',"snack",'starter','beer']        req_tm>='18:42:00'        price!=-.01        put_tm<'23:5:59'
+select          kind,put_tm,name,count,price,check          price!=1.05          price<-.0          req_tm>=18:41:50          count!=00000000000047          name!="Nachos \"chips with cheese\"  "

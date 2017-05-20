@@ -1,0 +1,84 @@
+insert:1
+insert:2
+insert:3
+insert:4
+insert:5
+insert:6
+insert:7
+incorrect:'0'
+insert:8
+incorrect:'9'
+insert:9
+incorrect:'7'
+insert:10
+insert:11
+insert:12
+incorrect:'0'
+select:12
+kind='starter' 
+kind='first' 
+kind='salad' 
+kind='beer' 
+kind='main' 
+kind='drink' 
+kind='main' 
+kind='first' 
+kind='main' 
+kind='beer' 
+kind='starter' 
+kind='starter' 
+select:12
+kind='starter' req_tm='19:07:42' price=1.00 put_tm='18:42:00' 
+kind='first' req_tm='19:05:41' price=1.00 put_tm='23:59:59' 
+kind='salad' req_tm='19:07:42' price=5.00 put_tm='19:07:55' 
+kind='beer' req_tm='18:40:52' price=5.00 put_tm='18:41:50' 
+kind='main' req_tm='18:40:52' price=1.00 put_tm='19:07:43' 
+kind='drink' req_tm='19:07:43' price=5.00 put_tm='19:07:43' 
+kind='main' req_tm='19:07:42' price=7.00 put_tm='19:07:03' 
+kind='first' req_tm='19:05:41' price=6.91 put_tm='18:41:50' 
+kind='main' req_tm='19:07:43' price=6.91 put_tm='19:07:03' 
+kind='beer' req_tm='19:05:41' price=7.00 put_tm='19:07:03' 
+kind='starter' req_tm='19:07:43' price=17.44 put_tm='19:07:03' 
+kind='starter' req_tm='19:07:43' price=7.00 put_tm='18:40:51' 
+select:12
+req_tm='19:07:42' check=0 name="Chili-con-carne" count=41 put_tm='18:42:00' price=1.00 
+req_tm='19:05:41' check=57 name="Chili con carne" count=41 put_tm='23:59:59' price=1.00 
+req_tm='19:07:42' check=16 name=" Buritto//Meet" count=40 put_tm='19:07:55' price=5.00 
+req_tm='18:40:52' check=0 name=" Buritto\\chicken" count=15 put_tm='18:41:50' price=5.00 
+req_tm='18:40:52' check=15 name="Buritto\"chicken\"" count=15 put_tm='19:07:43' price=1.00 
+req_tm='19:07:43' check=15 name="Nachos \"chips with cheese\"  " count=4 put_tm='19:07:43' price=5.00 
+req_tm='19:07:42' check=-19 name="Chicken  'nachos'  " count=551 put_tm='19:07:03' price=7.00 
+req_tm='19:05:41' check=-19 name="Nachos=chicken=" count=57 put_tm='18:41:50' price=6.91 
+req_tm='19:07:43' check=57 name="=Drink=beer=" count=41 put_tm='19:07:03' price=6.91 
+req_tm='19:05:41' check=4 name="  Drink    'Beer',      vol. 0.3l  " count=4 put_tm='19:07:03' price=7.00 
+req_tm='19:07:43' check=4 name="" count=41 put_tm='19:07:03' price=17.44 
+req_tm='19:07:43' check=41 name="Drink Beer\\\\\\\\" count=-10 put_tm='18:40:51' price=7.00 
+select:0
+select:1
+kind='starter' put_tm='19:07:03' check=4 price=17.44 count=41 req_tm='19:07:43' name="" 
+select:10
+price=1.00 req_tm='19:07:42' 
+price=1.00 req_tm='19:05:41' 
+price=5.00 req_tm='19:07:42' 
+price=5.00 req_tm='18:40:52' 
+price=7.00 req_tm='19:07:42' 
+price=6.91 req_tm='19:05:41' 
+price=6.91 req_tm='19:07:43' 
+price=7.00 req_tm='19:05:41' 
+price=17.44 req_tm='19:07:43' 
+price=7.00 req_tm='19:07:43' 
+select:0
+select:0
+select:0
+select:0
+select:0
+select:3
+name="Buritto\"chicken\"" count=15 
+name="Chicken  'nachos'  " count=551 
+name="=Drink=beer=" count=41 
+select:3
+check=15 put_tm='19:07:43' count=4 kind='drink' req_tm='19:07:43' name="Nachos \"chips with cheese\"  " 
+check=4 put_tm='19:07:03' count=4 kind='beer' req_tm='19:05:41' name="  Drink    'Beer',      vol. 0.3l  " 
+check=41 put_tm='18:40:51' count=-10 kind='starter' req_tm='19:07:43' name="Drink Beer\\\\\\\\" 
+select:0
+select:0

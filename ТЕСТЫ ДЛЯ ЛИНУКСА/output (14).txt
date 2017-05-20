@@ -1,0 +1,10 @@
+incorrect:'insert     check=551'
+incorrect:'insert check=15,name'
+incorrect:'insert   price=999.9'
+incorrect:'insert put_tm='18:40'
+incorrect:'insert kind=' starte'
+incorrect:'insert    price=17.4'
+incorrect:'insert    price=5.51'
+incorrect:'insert  put_tm='19:0'
+incorrect:'insert    kind='s\na'
+select:0

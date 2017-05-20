@@ -1,0 +1,49 @@
+insert:1
+insert:2
+insert:3
+insert:4
+insert:5
+select:5
+kind='snack' req_tm='19:07:55' name="starter" put_tm='19:05:41' check=0 count=18 price=999.99
+kind='beer' req_tm='18:42:00' name="starter" put_tm='19:05:41' check=-19 count=41 price=17.44
+kind='salad' req_tm='19:07:42' name="beer" put_tm='19:05:41' check=41 count=41 price=7.00
+kind='beer' req_tm='19:05:41' name="main" put_tm='19:05:41' check=57 count=18 price=14.00
+kind='main' req_tm='19:07:43' name="drink" put_tm='18:40:51' check=4 count=40 price=1.00
+select:5
+price=999.99 check=0 kind='snack' count=18 req_tm='19:07:55'
+price=17.44 check=-19 kind='beer' count=41 req_tm='18:42:00'
+price=7.00 check=41 kind='salad' count=41 req_tm='19:07:42'
+price=14.00 check=57 kind='beer' count=18 req_tm='19:05:41'
+price=1.00 check=4 kind='main' count=40 req_tm='19:07:43'
+select:5
+count=18 price=999.99 req_tm='19:07:55'
+count=41 price=17.44 req_tm='18:42:00'
+count=41 price=7.00 req_tm='19:07:42'
+count=18 price=14.00 req_tm='19:05:41'
+count=40 price=1.00 req_tm='19:07:43'
+select:5
+check=0
+check=-19
+check=41
+check=57
+check=4
+select:1
+price=1.00 req_tm='19:07:43' put_tm='18:40:51' kind='main' count=40 name="drink"
+select:3
+kind='snack' count=18 put_tm='19:05:41' req_tm='19:07:55'
+kind='salad' count=41 put_tm='19:05:41' req_tm='19:07:42'
+kind='main' count=40 put_tm='18:40:51' req_tm='19:07:43'
+select:2
+req_tm='19:07:55' kind='snack' name="starter"
+req_tm='18:42:00' kind='beer' name="starter"
+select:2
+price=7.00 req_tm='19:07:42'
+price=14.00 req_tm='19:05:41'
+select:0
+select:0
+select:0
+select:0
+select:0
+select:0
+select:0
+select:0

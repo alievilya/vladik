@@ -1,0 +1,11 @@
+incorrect:'insert name="snack",'
+insert:1
+insert:2
+insert:3
+incorrect:'insert  count=57,req'
+incorrect:'insert     put_tm='1'
+incorrect:'insert  req_tm='19:0'
+select:3
+name="snack" req_tm='23:59:59' check=4 price=3317.44 put_tm='23:59:59'
+name="snack" req_tm='18:41:50' check=16 price=15.10 put_tm='19:05:41'
+name="drink" req_tm='18:40:51' check=4 price=-15.10 put_tm='19:07:03'

@@ -1,0 +1,10 @@
+insert     check=551,kind=starter,count=0015,name="beer",price=999.99,req_tm='23:59:59',put_tm='18:40:51'
+insert check=15,name="main",req_tm='18:41:50',price=17.44,count=0016,kind="snack",put_tm='18:41:50'
+insert   price=999.99,kind='stmarter',name="starter",req_tm='19:07:43',put_tm='19:07:03',count=0015,check=57
+insert put_tm='18:40:52',name="starter",req_tm='19:07:55',check=004,count=004,kind='sna ck',price=7.0
+insert kind=' starter ',check=0,req_tm='18:42:00',put_tm='18:42:00',name="snack",count=15,price=6.91
+insert    price=17.44,put_tm='23:59:59',check=0015,req_tm='19:07:43',count=041,kind='b=eer',name="snack"
+insert    price=5.51,count=40,req_tm='19:05:41',kind='f"irst',put_tm='18:42:00',name="main",check=0016
+insert  put_tm='19:07:42',kind='dri,nk',price=1,check=0015,count=041,req_tm='19:05:41',name="snack"
+insert    kind='s\nack',put_tm='19:07:42',name="salad",price=1,check=0,req_tm='18:41:50',count=004
+select    check,name

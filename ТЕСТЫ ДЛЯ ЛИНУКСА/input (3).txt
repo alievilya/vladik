@@ -1,0 +1,21 @@
+insert     kind='beer',put_tm='18:40:51',check=18,count=15,price=5.51,req_tm='18:42:00',name="salad"
+insert  name="drink",count=0,req_tm='19:07:55',put_tm='18:42:00',check=41,kind='starter',price=7.0
+insert put_tm='18:42:00',price=14.0,req_tm='23:59:59',count=15,kind='first',check=041,name="snack"
+insert  check=41,kind='main',count=0015,price=5,name="starter",req_tm='18:42:00',put_tm='23:59:59'
+insert put_tm='19:07:42',price=5,req_tm='18:42:00',kind='salad',name="starter",count=57,check=18
+select   req_tm,count,put_tm,price,check,name,kind
+select   req_tm,put_tm,kind,count,name
+select     name,check,count
+select  price
+select req_tm,price,kind name>="beer"
+select   price,kind,check,count   check==-10
+select   price,count,check,kind,req_tm   name>="snack"
+select    put_tm,price    check>40    kind/not_in/['main','beer','salad']
+select price,kind,name,put_tm,req_tm price!=999.99 put_tm!='19:07:43'
+select     put_tm,price,check,name,req_tm,kind,count     count!=0016     price>=999.99
+select    name,check    kind/in/['starter','first','main']    req_tm>='19:07:42'    put_tm<='18:40:52'
+select   req_tm,check,price,name,kind,count,put_tm   check<=18   check==-19   check!=57
+select   price,put_tm,count,name,kind   check<004   kind/in/[]   count<=004
+select   put_tm   name<"main"   put_tm<='19:07:03'   kind/in/['first','starter','beer']   req_tm<='19:07:03'
+select    req_tm,name    name!="main"    count!=041    kind=='main'    put_tm<'19:07:03'
+select   req_tm,kind,check,price,name,put_tm,count   count==41   kind/in/['snack','first']   price==999.99   name<"beer"

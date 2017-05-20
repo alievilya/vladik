@@ -1,0 +1,55 @@
+insert:1
+insert:2
+insert:3
+insert:4
+insert:5
+select:5
+price=999.99 put_tm='19:05:41' check=-19 req_tm='19:05:41' count=-10 kind='main' name="main"
+price=7.00 put_tm='19:07:42' check=15 req_tm='19:05:41' count=57 kind='starter' name="first"
+price=999.99 put_tm='19:07:43' check=-10 req_tm='23:59:59' count=-19 kind='starter' name="first"
+price=6.91 put_tm='19:07:03' check=41 req_tm='19:07:42' count=0 kind='salad' name="beer"
+price=7.00 put_tm='18:42:00' check=551 req_tm='19:07:43' count=-10 kind='drink' name="salad"
+select:5
+kind='main' name="main" count=-10 req_tm='19:05:41' check=-19
+kind='starter' name="first" count=57 req_tm='19:05:41' check=15
+kind='starter' name="first" count=-19 req_tm='23:59:59' check=-10
+kind='salad' name="beer" count=0 req_tm='19:07:42' check=41
+kind='drink' name="salad" count=-10 req_tm='19:07:43' check=551
+select:5
+put_tm='19:05:41' check=-19 req_tm='19:05:41'
+put_tm='19:07:42' check=15 req_tm='19:05:41'
+put_tm='19:07:43' check=-10 req_tm='23:59:59'
+put_tm='19:07:03' check=41 req_tm='19:07:42'
+put_tm='18:42:00' check=551 req_tm='19:07:43'
+select:5
+name="main"
+name="first"
+name="first"
+name="beer"
+name="salad"
+select:0
+select:0
+select:5
+count=-10 name="main" check=-19 kind='main' put_tm='19:05:41'
+count=57 name="first" check=15 kind='starter' put_tm='19:07:42'
+count=-19 name="first" check=-10 kind='starter' put_tm='19:07:43'
+count=0 name="beer" check=41 kind='salad' put_tm='19:07:03'
+count=-10 name="salad" check=551 kind='drink' put_tm='18:42:00'
+select:0
+select:4
+put_tm='19:05:41' kind='main' count=-10 name="main" check=-19 price=999.99 req_tm='19:05:41'
+put_tm='19:07:43' kind='starter' count=-19 name="first" check=-10 price=999.99 req_tm='23:59:59'
+put_tm='19:07:03' kind='salad' count=0 name="beer" check=41 price=6.91 req_tm='19:07:42'
+put_tm='18:42:00' kind='drink' count=-10 name="salad" check=551 price=7.00 req_tm='19:07:43'
+select:0
+select:2
+put_tm='19:05:41' req_tm='19:05:41' kind='main' price=999.99
+put_tm='19:07:43' req_tm='23:59:59' kind='starter' price=999.99
+select:1
+kind='salad'
+select:1
+check=-19 name="main" req_tm='19:05:41' kind='main' price=999.99 count=-10 put_tm='19:05:41'
+select:1
+name="salad" count=-10 put_tm='18:42:00' check=551 kind='drink' req_tm='19:07:43' price=7.00
+select:0
+select:0

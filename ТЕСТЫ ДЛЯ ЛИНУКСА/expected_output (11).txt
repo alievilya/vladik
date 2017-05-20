@@ -1,0 +1,8 @@
+incorrect:'insert req_tm='18:42'
+incorrect:'insert    check=041,'
+incorrect:'insert  price=6.91,k'
+incorrect:'insert   name=B"urit'
+incorrect:'insert   price=14.0,'
+incorrect:'insert     put_tm='1'
+incorrect:'insert    count=0016'
+select:0

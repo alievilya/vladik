@@ -1,0 +1,57 @@
+insert:1
+insert:2
+insert:3
+incorrect:'8'
+insert:4
+insert:5
+select:5
+name="drink" req_tm='23:59:59' price=999.99 kind='starter' count=41 check=0 put_tm='18:40:52' 
+name="main" req_tm='19:07:55' price=6.91 kind='starter' count=16 check=15 put_tm='18:40:51' 
+name="snack" req_tm='23:59:59' price=5.00 kind='first' count=-10 check=18 put_tm='19:07:03' 
+name="starter" req_tm='19:05:41' price=5.00 kind='snack' count=15 check=41 put_tm='18:40:51' 
+name="starter" req_tm='19:07:43' price=5.00 kind='drink' count=4 check=-19 put_tm='19:07:43' 
+select:5
+put_tm='18:40:52' req_tm='23:59:59' name="drink" kind='starter' count=41 
+put_tm='18:40:51' req_tm='19:07:55' name="main" kind='starter' count=16 
+put_tm='19:07:03' req_tm='23:59:59' name="snack" kind='first' count=-10 
+put_tm='18:40:51' req_tm='19:05:41' name="starter" kind='snack' count=15 
+put_tm='19:07:43' req_tm='19:07:43' name="starter" kind='drink' count=4 
+select:5
+put_tm='18:40:52' check=0 count=41 
+put_tm='18:40:51' check=15 count=16 
+put_tm='19:07:03' check=18 count=-10 
+put_tm='18:40:51' check=41 count=15 
+put_tm='19:07:43' check=-19 count=4 
+select:5
+put_tm='18:40:52' 
+put_tm='18:40:51' 
+put_tm='19:07:03' 
+put_tm='18:40:51' 
+put_tm='19:07:43' 
+select:3
+check=0 count=41 kind='starter' put_tm='18:40:52' req_tm='23:59:59' name="drink" 
+check=15 count=16 kind='starter' put_tm='18:40:51' req_tm='19:07:55' name="main" 
+check=41 count=15 kind='snack' put_tm='18:40:51' req_tm='19:05:41' name="starter" 
+select:0
+select:4
+kind='starter' req_tm='19:07:55' price=6.91 put_tm='18:40:51' 
+kind='first' req_tm='23:59:59' price=5.00 put_tm='19:07:03' 
+kind='snack' req_tm='19:05:41' price=5.00 put_tm='18:40:51' 
+kind='drink' req_tm='19:07:43' price=5.00 put_tm='19:07:43' 
+select:1
+price=5.00 req_tm='19:07:43' put_tm='19:07:43' 
+select:0
+select:3
+check=18 put_tm='19:07:03' 
+check=41 put_tm='18:40:51' 
+check=-19 put_tm='19:07:43' 
+select:1
+check=-19 name="starter" price=5.00 count=4 put_tm='19:07:43' 
+select:0
+select:0
+select:3
+name="drink" put_tm='18:40:52' kind='starter' check=0 count=41 
+name="main" put_tm='18:40:51' kind='starter' check=15 count=16 
+name="starter" put_tm='18:40:51' kind='snack' check=41 count=15 
+select:0
+select:0
